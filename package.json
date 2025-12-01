@@ -1,0 +1,32 @@
+{
+  "name": "koytas-social-media-integration",
+  "version": "1.0.0",
+  "description": "Koytaş Yapı - Sosyal Medya Gönderileri Otomatik Entegrasyonu",
+  "main": "social-posts-updater.js",
+  "scripts": {
+    "start": "node backend-api-example.js",
+    "update-posts": "node social-posts-updater.js",
+    "dev": "nodemon backend-api-example.js"
+  },
+  "keywords": [
+    "social-media",
+    "instagram",
+    "facebook",
+    "linkedin",
+    "api"
+  ],
+  "author": "Koytaş Yapı",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
