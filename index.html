@@ -1005,6 +1005,11 @@
       .footer-section {
         text-align: center;
       }
+      /* Hızlı Linkler ve Hizmetlerimiz bölümlerini mobilde gizle */
+      .footer-content > .footer-section:nth-child(2),
+      .footer-content > .footer-section:nth-child(4) {
+        display: none;
+      }
       .footer-social {
         justify-content: center;
       }
@@ -1016,6 +1021,11 @@
     @media (max-width: 480px) {
       .footer-content {
         grid-template-columns: 1fr;
+      }
+      /* Hızlı Linkler ve Hizmetlerimiz bölümlerini mobilde gizle */
+      .footer-content > .footer-section:nth-child(2),
+      .footer-content > .footer-section:nth-child(4) {
+        display: none;
       }
     }
   </style>
