@@ -26,4 +26,4 @@ Sayfadaki iletişim formu (`#contactForm`) şu an `mailto:` yönlendirmesi kulla
 
 ## Lisans
 
-Bu depodaki tüm kod, metin ve görseller Koytaş Yapı'ya aittir.
+Bu depodaki tüm kod, metin ve görseller Koytaş Yapı'ya aittir. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
